@@ -350,6 +350,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 
 .login {
     color: #fff;
+    background-color: transparent;
     display: inline;
     width: 100%;
     padding-bottom: 6px;    
@@ -361,7 +362,10 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     background-image: linear-gradient(transparent calc(100% - 1px),#ffc709 5px);
     background-position-y: -4px;
     background-repeat: no-repeat;
+    border: none;
+    
 }
+
 
 .login:hover{
     background-image: -webkit-linear-gradient(transparent -webkit-calc(100% - 2px),#ffc709 5px);

@@ -157,22 +157,29 @@
                     <span class="sua-conta">Entre com seu e-mail e senha para acessar sua conta</span>
                 </div>
                 <div class="conteudo">
-                    <span class="msg-erro">E-mail ou senha incorretos!</span>
+                    <span class="email-erro"></span>
+                    <span class="senha-erro"></span>
                     <div class="area-email">
-                        <input id="email" type="text" placeholder="Insira seu e-mail">
+                        <input id="email" type="email" placeholder="Insira seu e-mail">
                     </div>
                     <div class="area-senha">
-                        <input id="senha" type="text" placeholder="Insira sua senha">
+                        <input id="senha" type="password" placeholder="Insira sua senha">
                     </div>
                     <button type="submit" class="submit-btn">Entrar</button>
                 </div>
             </div>
         </div>
 
+        <div class="logado">
+            <div class="box-logado"></div>
+            <button class="btnDeslog">Logout</button>
+        </div>
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="Login/login.js"></script>
     <script src="Login/modal.js"></script>
-    <script src="Busca/busca.js"></script>    
+    <script src="Busca/busca.js"></script>   
+    <script src="Login/logado.css">    </script> 
     
     </body>
 </html>

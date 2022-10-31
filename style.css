@@ -362,8 +362,24 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     background-image: linear-gradient(transparent calc(100% - 1px),#ffc709 5px);
     background-position-y: -4px;
     background-repeat: no-repeat;
+    border: none; 
+}
+
+.logadoBtn {
+    color: #fff;
+    background-color: transparent;
+    display: none;
+    width: 100%;
+    padding-bottom: 6px;    
+    cursor: pointer;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(transparent -webkit-calc(100% - 1px),#ffc709 5px);
+    background-image: -moz-linear-gradient(transparent -moz-calc(100% - 1px),#ffc709 5px);
+    background-image: -o-linear-gradient(transparent calc(100% - 1px),#ffc709 5px);
+    background-image: linear-gradient(transparent calc(100% - 1px),#ffc709 5px);
+    background-position-y: -4px;
+    background-repeat: no-repeat;
     border: none;
-    
 }
 
 

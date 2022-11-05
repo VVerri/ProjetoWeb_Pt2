@@ -2,7 +2,7 @@
     top: 25%;
     right: 18% ;
     width: 440px;
-    height: 260px;
+    height: 340px;
     background-color: black;
     display: none;
     position: absolute;
@@ -19,10 +19,20 @@
     background-color: #ffc709;
     z-index: 50;
     width: 400px;
-    height: 160px;
+    height: 240px;
     position: absolute;
-    border-radius: 20px;
     flex-direction: column;
+    border-radius: 10px;
+}
+
+.divBtn{
+    flex-direction: row;
+    height: 30px;
+    width: 440px;
+    background-color: transparent;
+    top: 50px;
+    position: absolute;
+    margin: 0 auto;
 }
 
 .btnDeslog {

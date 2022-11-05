@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="Busca/busca.css">
         <link rel="icon" href="https://web.xpi.com.br/wp-content/themes/xpi-acquisition-xp/assets/images/favicon/192.png" sizes="192x192">
         <title>XP Investimantos | Você no comando da sua vida financeira.</title>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     </head>
     <body>
         <header class="header-top">
@@ -172,23 +173,24 @@
                 </div>
             </div>
         </div>
-
+        <!--Busca-->
         <div class="logado">
-            <H1 class="h1-search">Faça já a converção de uma cryptomoeda e saiba seu valor.</H1>
-            <input class="inpsearch" type="text">
-            <button class="searchBtn">Buscar</button>
-            <div class="box-logado">
-                
+            <H1 class="h1-search">Descubra uma convesão disponível e busque um par para moeda:</H1>
+            <input id="inpbusca" class="inpsearch" type="text" placeholder="Ex: BRL, USD, EUR, BTC ou BTC-BRL, ETH-USD">
+            <div class="divBtn">
+                <button class="searchBtn">Conversão Disponível ✅</button>
+                <button class="pairBtn">🔎 Buscar Par 💱</button>
             </div>
+            
+            <div id="boxResults" class="box-logado"></div>
             
             <button class="btnDeslog">Logout</button>
         </div>
-        
-
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="Login/login.js"></script>
     <script src="Login/modal.js"></script>
     <script src="Busca/busca.js"></script>   
-    
+
     </body>
 </html>
+
+

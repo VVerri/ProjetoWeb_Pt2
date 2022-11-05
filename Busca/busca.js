@@ -98,7 +98,7 @@ const url_par = "https://brapi.dev/api/v2/currency?currency=";
         document.querySelector("#inpbusca").value = "";
         var erro = document.createElement('p');
             erro.classList.add('searchError');
-            erro.innerHTML = 'Erro de busca, para buscar o par tente não utilizar espaços ou verificar a moeda escrita (ex:BTC-BRL)';
+            erro.innerHTML = '⚠️Erro de busca⚠️ <br> Para buscar o par tente não utilizar espaços ou verificar a moeda escrita (ex:BTC-BRL)';
 
         container.appendChild(erro);
       })
